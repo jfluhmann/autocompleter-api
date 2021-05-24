@@ -8,7 +8,7 @@ The Autocompleter API has two routes:
  * `/` - returns a simple JSON `{"ping": "pong"}` response
  * `/words/{word}` - returns a JSON response list of suggested autocompletes, based on `{word}`
    ```json
-   {"words":[..]}
+   {"words":["word0","word1"]}
    ```
 
 ## Running the API
