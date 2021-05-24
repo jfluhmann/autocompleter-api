@@ -18,7 +18,7 @@ The API can be run in several ways:
    
    ```bash
    docker build -t autocompleter-api:0.1.2 .
-   docker run -dp 8000:80 autocompleter-api
+   docker run -dp 8000:80 autocompleter-api:0.1.2
    ```
 
  * Docker compose
