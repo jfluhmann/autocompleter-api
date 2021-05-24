@@ -17,7 +17,7 @@ The API can be run in several ways:
  * Docker
    
    ```bash
-   docker build -t autocompleter-api:0.1.1 .
+   docker build -t autocompleter-api:0.1.2 .
    docker run -dp 8000:80 autocompleter-api
    ```
 
@@ -31,7 +31,7 @@ The API can be run in several ways:
    **If using minikube**, run the following prior to running helm install:
    
    ```bash
-   docker build -t autocompleter-api:0.1.1 .
+   docker build -t autocompleter-api:0.1.2 .
    minikube cache add autocompleter-api:0.1.2
    ```
    
