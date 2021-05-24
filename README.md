@@ -28,6 +28,7 @@ The API can be run in several ways:
    ```
 
  * Helm Chart
+   
    **If using minikube**, run the following prior to running helm install:
    
    ```bash
